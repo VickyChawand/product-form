@@ -98,7 +98,7 @@ const AddressForm = ({ address, handleChange, title }) => {
     setShowStateList(false);
     handleChange("state", state.name);
     setSelectedStateCode(state.iso2);
-    fetchCities(selectedCountryCode, selectedStateCode);
+    fetchCities(selectedCountryCode, state.iso2);
   };
 
   const handleCityChange = (value) => {
