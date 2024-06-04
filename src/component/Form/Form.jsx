@@ -123,6 +123,7 @@ const AddressForm = ({ address, handleChange, title }) => {
   return (
     <>
       <h3>{title}</h3>
+      {/* Address 1 */}
       <div className="details">
         <label>Address Line 1</label>
         <input
@@ -130,6 +131,7 @@ const AddressForm = ({ address, handleChange, title }) => {
           onChange={(e) => handleChange("Address1", e.target.value)}
         />
       </div>
+      {/* Address 2 */}
       <div className="details">
         <label>Address Line 2</label>
         <input
@@ -137,6 +139,7 @@ const AddressForm = ({ address, handleChange, title }) => {
           onChange={(e) => handleChange("Address2", e.target.value)}
         />
       </div>
+      {/* Country */}
       <div className="details">
         <label>Country</label>
         <input
@@ -158,6 +161,7 @@ const AddressForm = ({ address, handleChange, title }) => {
           </ul>
         )}
       </div>
+      {/* State / Province */}
       <div className="details">
         <label>State / Province</label>
         <input
@@ -179,6 +183,7 @@ const AddressForm = ({ address, handleChange, title }) => {
           </ul>
         )}
       </div>
+      {/* City / District */}
       <div className="details">
         <label>City / District</label>
         <input
@@ -200,6 +205,7 @@ const AddressForm = ({ address, handleChange, title }) => {
           </ul>
         )}
       </div>
+      {/* Postal Code */}
       <div className="details">
         <label>Postal Code</label>
         <input

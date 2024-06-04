@@ -43,6 +43,7 @@ const Billing = () => {
 
     return (
         <>
+        {/* Billing Component */}
         <div className="outter-main">
             <AddressForm
                 title="Billing Address"
@@ -54,6 +55,7 @@ const Billing = () => {
                 <span className="checkmark">Shipping address same as billing address</span>
             </div>
         </div>
+        {/* shipping Component */}
         {!sameAsBilling && (
             <div className="outter-main">
             <AddressForm

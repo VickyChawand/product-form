@@ -3,7 +3,6 @@ import "./product.css";
 import jsonData from "../Product.json";
 import { MdDelete } from "react-icons/md";
 
-// Mock currency conversion rates (you can replace this with a real API)
 const conversionRates = {
   USD: 1,
   EUR: 0.85,
