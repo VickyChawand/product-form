@@ -1,0 +1,53 @@
+.outter-main{
+    width: 60vw;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.outter-main h3{
+    width: auto;
+    height: 25px;
+    position: absolute;
+    top: -33px;
+    left: 18px;
+    background-color: white;
+    text-align: center;
+}
+
+.details{
+    width: 100%;
+    margin-right: 3rem;
+    display: flex;
+    color: grey;
+}
+
+.details label{
+    width: 50%;
+}
+
+.details input {
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.details label:after { 
+    content:"*";
+    color: red; 
+}
+
+.checkmark{
+    font-size: 15px;
+    color: grey;
+}
+
+@media screen and (max-width: 600px) {
+    .outter-main{
+        grid-template-columns: 1fr;
+    }
+}

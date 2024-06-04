@@ -1,0 +1,586 @@
+{
+  "collections": {
+    "Cereal Grains": [
+      {
+        "product_name": "Wheat",
+        "price": 6.8
+      },
+      {
+        "product_name": "Rice",
+        "price": 17.68
+      },
+      {
+        "product_name": "Corn",
+        "price": 400.8
+      },
+      {
+        "product_name": "Oats",
+        "price": 385.27
+      },
+      {
+        "product_name": "Barley",
+        "price": 250.0
+      },
+      {
+        "product_name": "Millet",
+        "price": 260.0
+      },
+      {
+        "product_name": "Rye",
+        "price": 230.0
+      },
+      {
+        "product_name": "Sorghum",
+        "price": 240.0
+      },
+      {
+        "product_name": "Buckwheat",
+        "price": 750.0
+      },
+      {
+        "product_name": "Quinoa",
+        "price": 1200.0
+      },
+      {
+        "product_name": "Amaranth",
+        "price": 3000.0
+      },
+      {
+        "product_name": "Teff",
+        "price": 4000.0
+      },
+      {
+        "product_name": "Spelt",
+        "price": 900.0
+      },
+      {
+        "product_name": "Kamut",
+        "price": 700.0
+      },
+      {
+        "product_name": "Triticale",
+        "price": 230.0
+      },
+      {
+        "product_name": "Wild Rice",
+        "price": 1500.0
+      },
+      {
+        "product_name": "Durum Wheat",
+        "price": 280.0
+      },
+      {
+        "product_name": "Einkorn Wheat",
+        "price": 1000.0
+      },
+      {
+        "product_name": "Emmer Wheat",
+        "price": 900.0
+      },
+      {
+        "product_name": "Fonio",
+        "price": 3500.0
+      }
+    ],
+    "Fruits": [
+      {
+        "product_name": "Apple",
+        "price": 0.5
+      },
+      {
+        "product_name": "Banana",
+        "price": 0.58
+      },
+      {
+        "product_name": "Strawberry",
+        "price": 2.76
+      },
+      {
+        "product_name": "Orange",
+        "price": 1.25
+      },
+      {
+        "product_name": "Grapes",
+        "price": 2.09
+      },
+      {
+        "product_name": "Blueberry",
+        "price": 8.6
+      },
+      {
+        "product_name": "Watermelon",
+        "price": 0.24
+      },
+      {
+        "product_name": "Lemons",
+        "price": 1.44
+      },
+      {
+        "product_name": "Peaches",
+        "price": 1.95
+      },
+      {
+        "product_name": "Avocado",
+        "price": 15.7
+      },
+      {
+        "product_name": "Pineapple",
+        "price": 3.5
+      },
+      {
+        "product_name": "Mango",
+        "price": 1.0
+      },
+      {
+        "product_name": "Papaya",
+        "price": 1.2
+      },
+      {
+        "product_name": "Cherry",
+        "price": 9.0
+      },
+      {
+        "product_name": "Blackberry",
+        "price": 10.0
+      },
+      {
+        "product_name": "Kiwi",
+        "price": 0.75
+      },
+      {
+        "product_name": "Pomegranate",
+        "price": 2.5
+      },
+      {
+        "product_name": "Plum",
+        "price": 1.3
+      },
+      {
+        "product_name": "Pear",
+        "price": 1.5
+      },
+      {
+        "product_name": "Dragon Fruit",
+        "price": 5.0
+      }
+    ],
+    "Oil & Fat": [
+      {
+        "product_name": "Sunflower Oil",
+        "price": 1.5
+      },
+      {
+        "product_name": "Olive Oil",
+        "price": 3.99
+      },
+      {
+        "product_name": "Coconut Oil",
+        "price": 2.5
+      },
+      {
+        "product_name": "Butter",
+        "price": 0.99
+      },
+      {
+        "product_name": "Canola Oil",
+        "price": 1.75
+      },
+      {
+        "product_name": "Avocado Oil",
+        "price": 5.0
+      },
+      {
+        "product_name": "Sesame Oil",
+        "price": 3.45
+      },
+      {
+        "product_name": "Ghee",
+        "price": 4.5
+      },
+      {
+        "product_name": "Palm Oil",
+        "price": 2.3
+      },
+      {
+        "product_name": "Lard",
+        "price": 1.2
+      }
+    ],
+    "Dairy Product": [
+      {
+        "product_name": "Milk",
+        "price": 0.58
+      },
+      {
+        "product_name": "Cheese",
+        "price": 2.43
+      },
+      {
+        "product_name": "Butter",
+        "price": 0.54
+      },
+      {
+        "product_name": "Yogurt",
+        "price": 0.6
+      },
+      {
+        "product_name": "Cream",
+        "price": 1.5
+      },
+      {
+        "product_name": "Ice Cream",
+        "price": 2.0
+      },
+      {
+        "product_name": "Whey Protein",
+        "price": 15.0
+      },
+      {
+        "product_name": "Lactose-Free Milk",
+        "price": 0.8
+      },
+      {
+        "product_name": "Ghee",
+        "price": 3.0
+      },
+      {
+        "product_name": "Sour Cream",
+        "price": 1.2
+      }
+    ],
+    "Pulses": [
+      {
+        "product_name": "Lentils",
+        "price": 1.02
+      },
+      {
+        "product_name": "Chickpeas",
+        "price": 1.5
+      },
+      {
+        "product_name": "Black Beans",
+        "price": 1.2
+      },
+      {
+        "product_name": "Kidney Beans",
+        "price": 1.3
+      },
+      {
+        "product_name": "Navy Beans",
+        "price": 1.1
+      },
+      {
+        "product_name": "Mung Beans",
+        "price": 1.4
+      },
+      {
+        "product_name": "Pinto Beans",
+        "price": 1.25
+      },
+      {
+        "product_name": "Black-Eyed Peas",
+        "price": 1.35
+      },
+      {
+        "product_name": "Split Peas",
+        "price": 0.95
+      },
+      {
+        "product_name": "Adzuki Beans",
+        "price": 1.5
+      }
+    ],
+    "Poultry": [
+      {
+        "product_name": "Eggs",
+        "price": 0.97
+      },
+      {
+        "product_name": "Chicken Fillets",
+        "price": 1.43
+      },
+      {
+        "product_name": "Whole Chicken",
+        "price": 5.0
+      },
+      {
+        "product_name": "Chicken Wings",
+        "price": 2.5
+      },
+      {
+        "product_name": "Chicken Thighs",
+        "price": 3.0
+      },
+      {
+        "product_name": "Chicken Drumsticks",
+        "price": 2.75
+      },
+      {
+        "product_name": "Turkey Breast",
+        "price": 4.5
+      },
+      {
+        "product_name": "Duck",
+        "price": 9.0
+      },
+      {
+        "product_name": "Quail",
+        "price": 7.5
+      },
+      {
+        "product_name": "Cornish Hen",
+        "price": 6.0
+      }
+    ],
+    "Vegetable": [
+      {
+        "product_name": "Tomatoes",
+        "price": 0.23
+      },
+      {
+        "product_name": "Potatoes",
+        "price": 0.17
+      },
+      {
+        "product_name": "Onions",
+        "price": 0.18
+      },
+      {
+        "product_name": "Carrots",
+        "price": 0.2
+      },
+      {
+        "product_name": "Bell Peppers",
+        "price": 0.5
+      },
+      {
+        "product_name": "Broccoli",
+        "price": 1.0
+      },
+      {
+        "product_name": "Spinach",
+        "price": 1.25
+      },
+      {
+        "product_name": "Cucumbers",
+        "price": 0.3
+      },
+      {
+        "product_name": "Mushrooms",
+        "price": 0.9
+      },
+      {
+        "product_name": "Zucchini",
+        "price": 0.33
+      }
+    ],
+    "Beverage": [
+      {
+        "product_name": "Tea",
+        "price": 2.89
+      },
+      {
+        "product_name": "Coffee",
+        "price": 4.21
+      },
+      {
+        "product_name": "Mineral Water",
+        "price": 1.0
+      },
+      {
+        "product_name": "Orange Juice",
+        "price": 3.0
+      },
+      {
+        "product_name": "Apple Juice",
+        "price": 2.5
+      },
+      {
+        "product_name": "Soda",
+        "price": 1.25
+      },
+      {
+        "product_name": "Energy Drink",
+        "price": 2.0
+      },
+      {
+        "product_name": "Sports Drink",
+        "price": 1.75
+      },
+      {
+        "product_name": "Iced Tea",
+        "price": 2.0
+      },
+      {
+        "product_name": "Lemonade",
+        "price": 1.5
+      }
+    ],
+    "Bakery": [
+      {
+        "product_name": "Bread",
+        "price": 0.45
+      },
+      {
+        "product_name": "Biscuits",
+        "price": 0.36
+      },
+      {
+        "product_name": "Croissant",
+        "price": 1.2
+      },
+      {
+        "product_name": "Baguette",
+        "price": 1.5
+      },
+      {
+        "product_name": "Muffins",
+        "price": 2.0
+      },
+      {
+        "product_name": "Donuts",
+        "price": 0.99
+      },
+      {
+        "product_name": "Cupcakes",
+        "price": 2.5
+      },
+      {
+        "product_name": "Pie",
+        "price": 5.0
+      },
+      {
+        "product_name": "Cake",
+        "price": 10.0
+      },
+      {
+        "product_name": "Brownies",
+        "price": 3.0
+      }
+    ],
+    "Spices": [
+      {
+        "product_name": "Turmeric",
+        "price": 0.27
+      },
+      {
+        "product_name": "Cumin",
+        "price": 0.75
+      },
+      {
+        "product_name": "Coriander",
+        "price": 0.5
+      },
+      {
+        "product_name": "Paprika",
+        "price": 0.6
+      },
+      {
+        "product_name": "Black Pepper",
+        "price": 0.4
+      },
+      {
+        "product_name": "Cinnamon",
+        "price": 0.55
+      },
+      {
+        "product_name": "Cardamom",
+        "price": 1.0
+      },
+      {
+        "product_name": "Cloves",
+        "price": 0.9
+      },
+      {
+        "product_name": "Nutmeg",
+        "price": 0.8
+      },
+      {
+        "product_name": "Ginger Powder",
+        "price": 0.7
+      }
+    ],
+    "Toiletry": [
+      {
+        "product_name": "Shampoo",
+        "price": 8.99
+      },
+      {
+        "product_name": "Toothpaste",
+        "price": 4.99
+      },
+      {
+        "product_name": "Soap",
+        "price": 2.99
+      },
+      {
+        "product_name": "Conditioner",
+        "price": 9.0
+      },
+      {
+        "product_name": "Body Wash",
+        "price": 5.5
+      },
+      {
+        "product_name": "Toothbrush",
+        "price": 3.0
+      },
+      {
+        "product_name": "Mouthwash",
+        "price": 4.5
+      },
+      {
+        "product_name": "Floss",
+        "price": 2.0
+      },
+      {
+        "product_name": "Deodorant",
+        "price": 3.75
+      },
+      {
+        "product_name": "Razor",
+        "price": 6.5
+      },
+      {
+        "product_name": "Facial Cleanser",
+        "price": 6.0
+      },
+      {
+        "product_name": "Hand Sanitizer",
+        "price": 2.5
+      },
+      {
+        "product_name": "Shaving Cream",
+        "price": 3.3
+      },
+      {
+        "product_name": "Sunscreen",
+        "price": 7.0
+      },
+      {
+        "product_name": "Lip Balm",
+        "price": 1.5
+      },
+      {
+        "product_name": "Moisturizer",
+        "price": 8.0
+      },
+      {
+        "product_name": "Hair Gel",
+        "price": 4.0
+      },
+      {
+        "product_name": "Dry Shampoo",
+        "price": 7.5
+      },
+      {
+        "product_name": "Contact Lens Solution",
+        "price": 10.0
+      },
+      {
+        "product_name": "Cotton Swabs",
+        "price": 1.25
+      }
+    ]
+  }
+}

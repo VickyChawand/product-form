@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import Contact from './component/Contact/Contact';
+import Billing from './component/Billing/Billing';
+import Product from './component/Product/Product';
+import Submit from './component/Submit/submit';
+
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+  
+  function handleModal(){
+    setShowModal(true);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main'>
+      <h1>Booking Cart</h1>
+      <Contact/>
+      <Billing/>
+      <Product/>
+      <button id='submit-btn' onClick={handleModal}>Generate Quote</button>
+      {showModal && <Submit handleSubmit={() => (setShowModal(false), window.location.reload())}/>}
     </div>
+    
   );
 }
 

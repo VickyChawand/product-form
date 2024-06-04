@@ -1,0 +1,47 @@
+.details{
+    width: 100%;
+    margin-right: 3rem;
+    display: flex;
+    color: grey;
+}
+
+.details label{
+    width: 50%;
+}
+
+.details input {
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h3:nth-of-type(2)> label:after { 
+    content:"";
+}
+  
+  .dropdown {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: black;
+    max-height: 150px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: white;
+    width: 20%;
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .dropdown li:hover {
+    background-color: #eee;
+  }
+
+  
