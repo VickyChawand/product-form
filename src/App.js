@@ -13,6 +13,11 @@ function App() {
     setShowModal(true);
   }
 
+  function handleSubmit(){
+    setShowModal(false)
+    window.location.reload()
+  }
+
   return (
     <div className='main'>
       <h1>Booking Cart</h1>
@@ -20,7 +25,7 @@ function App() {
       <Billing/>
       <Product/>
       <button id='submit-btn' onClick={handleModal}>Generate Quote</button>
-      {showModal && <Submit handleSubmit={() => (setShowModal(false), window.location.reload())}/>}
+      {showModal && <Submit handleSubmit={handleSubmit}/>}
     </div>
     
   );

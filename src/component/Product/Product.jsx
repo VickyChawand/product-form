@@ -60,7 +60,6 @@ const Product = () => {
   };
 
   useEffect(() => {
-    // Update product prices and totals when the currency changes
     const updatedProducts = products.map(product => {
       const selectedProduct = collections[product.collection]?.find(p => p.product_name === product.product);
       const newPrice = selectedProduct ? selectedProduct.price * conversionRates[currency] : 0;

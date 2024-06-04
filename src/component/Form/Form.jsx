@@ -21,7 +21,7 @@ const AddressForm = ({ address, handleChange, title }) => {
   const requestOptions = {
     method: "GET",
     headers: headers,
-    redirect: "follow",
+    redirect: "follow"
   };
 
   useEffect(() => {
@@ -35,7 +35,7 @@ const AddressForm = ({ address, handleChange, title }) => {
       }
     };
     fetchCountries();
-  }, []);
+  }, [requestOptions]);
 
   const fetchStates = async (countryCode) => {
     try {
@@ -98,7 +98,7 @@ const AddressForm = ({ address, handleChange, title }) => {
     setShowStateList(false);
     handleChange("state", state.name);
     setSelectedStateCode(state.iso2);
-    fetchCities(selectedCountryCode, state.iso2);
+    fetchCities(selectedCountryCode, selectedStateCode);
   };
 
   const handleCityChange = (value) => {
