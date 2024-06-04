@@ -35,7 +35,7 @@ const AddressForm = ({ address, handleChange, title }) => {
       }
     };
     fetchCountries();
-  }, [requestOptions]);
+  }, []);
 
   const fetchStates = async (countryCode) => {
     try {
