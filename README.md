@@ -1,4 +1,4 @@
-##Preview
+## Preview
 - Contact
 ![Contact](./utility/contact.jpeg)
 
@@ -6,15 +6,15 @@
 ![Billing](./utility/billing%201.jpeg)
 ![Billing](./utility/billing%202.jpeg)
 
--Shipping
+- Shipping
 ![Shipping](./utility/shipping.jpeg)
 
--Product
+- Product
 ![Product](./utility/product.jpeg)
 
--Submit
+- Submit
 ![Submit](./utility/submit.jpeg)
 
--MobileView
+- MobileView
 ![Mobile View](./utility/mobile%20view.jpeg)
 
